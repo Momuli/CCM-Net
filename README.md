@@ -31,6 +31,6 @@ if you want to train your own dataset:
 If you want to evaluate the performance of your model, that is, calculate OA, AA and Kappa:
 ```
 cd CCM-Net/performance.py
-modify parameters in `CCM-Net/test_CCM-Net.py`
-python test_CCM-Net.py
+modify parameters in `CCM-Net/Test_CCM-Net.py`
+python Test_CCM-Net.py
 ```
