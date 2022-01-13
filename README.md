@@ -15,7 +15,7 @@ This is a pytorch implementation of CCM-Net
 2. Please prepare the label file
 3. The picture format is .tiff or .tif
 4. The label format is .npy or .mat
-5. Please store the prepared data file in the Image file
+5. Please store the prepared data file in the 'Image' file
 ```
 CCM-Net/Image/
 ```
@@ -23,14 +23,14 @@ CCM-Net/Image/
 if you want to train your own dataset:
 ```
 1. Put your data set and label file to `CCM-Net/Image/`
-2. Modify parameters in `CCM-Net/Train.py` 
-4. `python train_CCM-Net.py`
+2. Modify parameters in `CCM-Net/Train_CCM-Net.py` 
+4. `python Train_CCM-Net.py`
 5. save `*.pkl` to weights, like `CCM-Net/Models/*.pkl`
 ```
 ## Performance
 If you want to evaluate the performance of your model, that is, calculate OA, AA and Kappa:
 ```
 cd CCM-Net/performance.py
-modify parameters in `CCM-Net/Performance.py`
-python Performance.py
+modify parameters in `CCM-Net/test_CCM-Net.py`
+python test_CCM-Net.py
 ```
